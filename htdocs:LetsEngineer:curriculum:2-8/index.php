@@ -1,9 +1,11 @@
 <?php
-$fruites =["apple"=>"といったらりんご","orange"=>"といったらみかん","peach"=>"といったらもも"];
-foreach($fruites as $key=>$value){
-   echo  $key;
-   echo ($value .'<br>');
-}
+
+$say ="といったら";
+$fruites =["apple"=>"りんご","orange"=>"みかん","peach"=>"もも"];
+ foreach($fruites as $key=>$value){
+   echo $key;
+   echo ($say.$value.'<br>');
+ }
 
 echo '<br>';
 $tora ="トランザンクションとは、取引記録などの意味の他に、ソフトウェアの処理方式の一つで、互いに関連・依存する複数の処理をまとめ、一体不可分の処理単位として扱うこと。";
