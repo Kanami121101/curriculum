@@ -26,16 +26,35 @@
 
 
 @media screen and (max-width: 479px) {
-
     .header {
         width: 150px;
+        height: 100px;
     }
-    
+
     .main {
         width: 150px;
         float: none;
     }
 
+    .left {
+        width: 150px;
+        height: 100px;
+    }
+    .rights {
+        float: none;
+        width: 150px;
+    }
+
+    .lefts {
+        float: none;
+        width: 150px;
+    }
+    .right1 {
+        width: 150px;
+    }
+    .left3 {
+        width: 150px;
+    }
     .footer {
         width: 150px;
     }
