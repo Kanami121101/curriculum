@@ -5,8 +5,6 @@
     clear: both;
 }
 
-
-
 .header {
     width: 400px;
     height: 100px;
@@ -20,12 +18,9 @@
     float: left;
 }
 
-
-
 .right_right {
     float: left;
 }
-
 
 .right {
     width: 250px;
@@ -40,12 +35,9 @@
     float: left;
 }
 
-
-
 .lefts {
     float: left;
 }
-
 
 .left1 {
     width: 150px;
@@ -53,13 +45,11 @@
     background-color: #ff9e6b;
 }
 
-
 .left2 {
     width: 150px;
     height: 100px;
     background-color: #8c2727;
 }
-
 
 .footer {
     width: 400px;
@@ -68,23 +58,11 @@
     margin-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-
 .header1 {
     width: 400px;
     height: 100px;
     background-color: #141f40;
 }
-
-
-
 
 .left9 {
     float: left;
@@ -97,7 +75,6 @@
     float: left;
 }
 
-
 .left7 {
     float: left;
 }
@@ -108,13 +85,11 @@
     background-color: #8c2727;
 }
 
-
 .left5 {
     width: 150px;
     height: 100px;
     background-color: #ff9e6b;
 }
-
 
 .left_left {
     width: 250px;
@@ -128,7 +103,6 @@
     background-color: #80bfa8;
     float: left;
 }
-
 
 .footer1 {
     width: 400px;
