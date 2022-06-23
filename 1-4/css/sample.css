@@ -43,14 +43,19 @@
     .rights {
         float: none;
         width: 150px;
+        display: flex;
+        flex-direction: column;
     }
 
     .lefts {
         float: none;
         width: 150px;
+        order: 2;
     }
     .right1 {
         width: 150px;
+        height: 100px;
+        order: 1;
     }
     .left3 {
         width: 150px;

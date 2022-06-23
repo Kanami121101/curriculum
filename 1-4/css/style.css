@@ -1,12 +1,8 @@
-
- 
- .clearfix::after {
+.clearfix::after {
      content: '';
      display: block;
      clear: both;
  }
- 
-
  
 .header {
     width: 400px;
@@ -21,22 +17,13 @@
    float: left;
 }
 
-
-/* left1,left2,right1,left3の親要素はrightである */
-
-
 .right {
     float: left;
 }
 
-
-/* left1,left2は、親要素leftsで囲んである */
 .lefts {
     float: left;
 }
-
-
-
 
 .left1 {
     width: 150px;
@@ -62,8 +49,6 @@
     height: 100px;
     background-color: #8c2727;
 }
-
-
 
 .footer {
     width: 400px;
