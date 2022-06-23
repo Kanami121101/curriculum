@@ -34,10 +34,8 @@ if($my_sql==$answer3){
 <?php echo $result1 ?>
 <p>②の答え</p>
 <?php echo $result2 ?>
-<!--作成した関数を呼び出して結果を表示-->
 <p>③の答え</p>
 <?php echo $result3 ?>
-<!--作成した関数を呼び出して結果を表示-->
 </body>
 <style>
     body {
