@@ -1,48 +1,26 @@
+<link rel="stylesheet" href="css/answer.css">
 <?php
-$name =$_POST['name'];
-$number=$_POST['number'];
-$language=$_POST['language'];
-$my_sql=$_POST['my_sql'];
-$answer =$_POST['answer'];
-$answer2= $_POST['answer2'];
-$answer3=$_POST['answer3'];
-?>
-<?php
-if($number==$answer){
-    $result1="正解！";
-} else {
-    $result1 ="残念...";
-} 
-?>
-<?php
-if($language==$answer2){
-    $result2 ="正解！";
-} else {
-    $result2="残念...";
-}
-?>
-<?php
-if($my_sql==$answer3){
-    $result3="正解！";
-} else {
-    $result3 ="残念...";
-}
+   $name =$_POST['name'];
+   $number=$_POST['number'];
+   $language=$_POST['language'];
+   $my_sql=$_POST['my_sql'];
+   $answer =$_POST['answer'];
+   $answer2= $_POST['answer2'];
+   $answer3=$_POST['answer3'];
+  function  get_answer($queation,$answer){
+     if($queation==$answer){
+         echo '正解！';
+     } else {
+         echo '失敗...';
+     }
+  }
 ?>
 <body>
-<p><?php echo $name:?>さんの結果は・・・？</p>
-<p>①の答え</p>
-<?php echo $result1 ?>
-<p>②の答え</p>
-<?php echo $result2 ?>
-<p>③の答え</p>
-<?php echo $result3 ?>
+    <p><?php echo $name;?>さんの結果は・・・？</p>
+    <p>①の答え</p>
+    <span><?php get_answer($number,$answer);?></span>
+    <p>②の答え</p>
+    <span><?php get_answer($language,$answer2); ?></span>
+    <p>③の答え</p>
+    <span><?php get_answer($my_sql,$answer3); ?></span>
 </body>
-<style>
-    body {
-        background-color: gray;
-        text-align: center;
-    }
-    p{
-        color: gray;
-    }
-</style>
