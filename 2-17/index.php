@@ -10,20 +10,19 @@ $sum += $num;
 printf("合計%d回でゴールしました。<br>", $ct);
 ?>
 <br>
-<?php 
+<?php
 date_default_timezone_set('Asia/Tokyo');
-$morning ="03,04,05,06,07,08,09,10";
-$noon = "12,13,14,15,16,17,18";
-function today_time($today){
     $today = date('H');
     $aa = intval($today);
-    if($aa == $morning){
-        echo "今$aa.時台です<br>おはようございます";
-    } elseif($aa== $noon){
-        echo "今$aa.時台です<br>こんにちは";
-    } else {
-        echo "今$aa.時台です<br>こんばんは";
+    if($aa<=10){
+        echo "今{$aa}時台です<br>おはようございます";
+    } elseif($aa<=18){
+        echo "今{$aa}時台です<br>こんにちは";
+    }  else {
+        echo  "今{$aa}時台です<br>こんばんは";
     }
-}
-echo today_time($today);
 ?>
+
+
+
+
